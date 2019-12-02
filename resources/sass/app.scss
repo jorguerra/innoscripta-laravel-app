@@ -1,1 +1,24 @@
-//
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+.card{
+    background: rgba(255,255,255,0.1);
+    color:white
+}
+
+p{
+    color: white;
+}
+div.d-block.order > span {
+    margin-right: 0.5em;
+    font-weight: bolder;
+}
+.ftco-section{
+    padding-top: 1em;
+}
