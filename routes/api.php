@@ -20,4 +20,5 @@ Route::middleware('auth:api')->group(function(){
         return $request->user();
     });
     Route::resource('/pizzas', 'PizzaController')->except(['index', 'show']);
+    Route::resource('/orders', 'OrderController');
 });
