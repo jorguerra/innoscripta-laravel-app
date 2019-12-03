@@ -11,3 +11,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .DS_Store
+/public/css
+!/public/css/.gitkeep
+/public/js
+!/public/js/.gitkeep
