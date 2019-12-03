@@ -14,3 +14,9 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+//Serving static file to avoid conflicts in Heroku
+Route::get('/{type}/{file}', function($type, $file){
+    return file_get_contents(public_path(($type.'/'.$file)));
+})->where(['type' => 'css|js']);
+
