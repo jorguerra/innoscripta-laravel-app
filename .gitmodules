@@ -1,0 +1,3 @@
+[submodule "resources/js/react_app"]
+	path = resources/js/react_app
+	url = git@github.com:jorguerra/innoscripta-react-app.git

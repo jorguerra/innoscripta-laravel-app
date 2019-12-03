@@ -1,5 +1,11 @@
 const mix = require('laravel-mix');
 
+mix.webpackConfig({
+   resolve: {
+      modules: ["node_modules", "resources/js/react_app/node_modules"]
+   }
+})
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
